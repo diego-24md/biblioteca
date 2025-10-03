@@ -2,30 +2,6 @@
 
 Este proyecto es una API REST construida con Node.js, Express y MySQL para gestionar libros en una biblioteca.
 
-⚙️ Tecnologías utilizadas
-
-Node.js
-
-Express
-
-MySQL2 (con promesas)
-
-Body-parser
-
-📂 Estructura del proyecto
-```
-biblioteca/
-│── config/
-│   └── db.js          # Configuración de conexión a la BD
-│── controllers/
-│   └── libroController.js  # Controlador con lógica de negocio
-│── routes/
-│   └── libroRoutes.js # Definición de rutas
-│── index.js           # Punto de entrada principal
-│── package.json
-
-```
-
 🗄️ Base de datos
 ```sql
 CREATE DATABASE biblioteca;
